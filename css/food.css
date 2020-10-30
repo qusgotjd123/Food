@@ -1,0 +1,110 @@
+*,*::after,*::before{box-sizing: border-box;padding: 0;margin: 0;}
+a{text-decoration: none;color: mediumspringgreen;}
+ul,li{list-style: none;}
+button{cursor: pointer;border: none;outline: none;}
+img{width: 100%;max-width: 100%}
+.container{width: 100%; max-width: 1200px; margin: 0 auto;}
+html{font-family: 'Noto Sans KR', sans-serif; color:#262626;}
+section{padding: 4rem 0 8rem;}
+:root{
+    --color-primary: #964b00;
+}
+#header {
+    background: var(--color-primary)
+}
+#header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header .container ul {
+    display: flex;
+    justify-content: space-between;
+}
+#header .container li {
+    margin-left: 2rem;
+}
+.max {
+    display: inline-block;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.3em;
+    color: rgba(223, 190, 106, 0.7);
+    border-radius: 0;
+    padding: 20px 80px;
+    transition: all 0.7s ease-out;
+    background: linear-gradient(270deg,
+     rgba(223, 190, 106, 0.8),
+     rgba(146, 111, 52, 0.8),
+     rgba(34, 34, 34, 0),
+     rgba(34, 34, 34, 0));
+    background-position: 1% 50%;
+    background-size: 300% 300%;
+    text-decoration: none;
+    margin: 0.625rem;
+    border: none;
+    border: 1px solid rgba(223, 190, 106, 0.3);
+}
+.logo {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.stack {
+    width: 10rem;
+    height: 10rem;
+}
+.max:hover {
+    color: #fff;
+    border: 1px solid
+    rgba(223, 190, 160, 0);
+    color: white;
+    background-position: 99% 50%;
+}
+#service {
+    column-width: 300px;
+    column-gap: 15px;
+}
+.monster {
+    display: inline-block;
+    border: 1px solid var(--color-primary);
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px var(--color-primary);
+}
+#miss {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background: goldenrod;
+}
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#miss li {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    text-shadow: 2px 6px 2px gray;
+}
+#service a{
+    font-weight: 700;
+    color: black;
+}
+#service img{
+    width: 100%;
+}
+#service p{
+    border-top: 1px solid var(--color-primary);
+    padding: 10px;
+    margin-top: 11px;
+}
+#mollen {
+    background: url(../img/line.jpg);
+}
